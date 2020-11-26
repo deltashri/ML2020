@@ -20,3 +20,22 @@ https://research.google.com/seedbank
 1. ### heatmap sns.heatmap(df.corr(), annot=True)
 - Will hilight the co-relations closer to -1 or +1
 - #### choose features that have a high co-relation (data that does not have a normal distribution is already filtered out in the first step)
+
+
+### Dependent and Independent Variables
+* the age of the house will keep changing constantly at the a particular pace... this is not dependent on any other parameter... so, it is an independent variable
+* the price of the house will change with age... older the house, lesser the price (negative co-relation).. so, price is a dependent variable
+* by convention, you plot the independent on the x-axis
+
+> All real world data is in the first quadrant... you would not have negative time, or, negative price for a house (no one is paying you to buy a house) etc. 
+
+
+### If the data distrubution of a particular feature does not follow normal distribution (68% - 95% - 98%) [Gaussian distribution] there are ways to normalize the data
+* take the log of the values... it will magically convert the distribution to a normal distribution.... you can also 
+1. take the reciprocal
+1. take the squareroot
+1. get the square etc. 
+* taking the log is better... because, it will also help in converting the value back to the original scale. 
+* other ways to transform the data are:
+1. Box-Cox method (does not work if there are zeros and -ve numbers in the dataset)
+1. Yo-Johnson method
