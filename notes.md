@@ -12,7 +12,7 @@
 - Std Deviation - should be a small fraction of the mean... eg: if 6ft is the mean height, std dv of 3-4 inches is good... if sd is 3 ft... data does not make sense SD of 3 inches mean, 68% of the population are in the range of 5'9" and 6'3"
 - if the diff between mean and median is too large... data will be skewed
 - if data distribution curve is too narrow or too wide, it is not following the normal bell curve distribution.. and the data point may not be very helpful
-- #### choose features that follows a mean distribution curve and discard the rest
+- #### choose features that follows a normal distribution curve and discard the rest
 
 
 ### If the data distrubution of a particular feature does not follow normal distribution (68% - 95% - 98%) [Gaussian distribution] there are ways to normalize the data
