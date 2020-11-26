@@ -15,6 +15,16 @@
 - #### choose features that follows a mean distribution curve and discard the rest
 
 
+### If the data distrubution of a particular feature does not follow normal distribution (68% - 95% - 98%) [Gaussian distribution] there are ways to normalize the data
+* take the log of the values... it will magically convert the distribution to a normal distribution.... you can also 
+1. take the reciprocal
+1. take the squareroot
+1. get the square etc. 
+* taking the log is better... because, it will also help in converting the value back to the original scale. 
+* other ways to transform the data are:
+1. Box-Cox method (does not work if there are zeros and -ve numbers in the dataset)
+1. Yo-Johnson method
+
 1. ### seaborn.pairplot & df.corr() 
 - will tell me, which dimentions has a co-relation to the dimentaion we are interested in... in pairplot, if it is all over the place with no relation... that data point may not help us... however, if the datapoints are going up... or down with the x-axis... then there either is a positive or a negaitve co-relationship... in df.corr() a feature that has a co-rel of a number closer to -1 or +1 is preferred.... numbers closer to 0 won't help much
 
@@ -31,13 +41,3 @@
 
 > All real world data is in the first quadrant... you would not have negative time, or, negative price for a house (no one is paying you to buy a house) etc. 
 
-
-### If the data distrubution of a particular feature does not follow normal distribution (68% - 95% - 98%) [Gaussian distribution] there are ways to normalize the data
-* take the log of the values... it will magically convert the distribution to a normal distribution.... you can also 
-1. take the reciprocal
-1. take the squareroot
-1. get the square etc. 
-* taking the log is better... because, it will also help in converting the value back to the original scale. 
-* other ways to transform the data are:
-1. Box-Cox method (does not work if there are zeros and -ve numbers in the dataset)
-1. Yo-Johnson method
