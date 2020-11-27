@@ -41,3 +41,6 @@
 
 > All real world data is in the first quadrant... you would not have negative time, or, negative price for a house (no one is paying you to buy a house) etc. 
 
+
+## check this out... you can see how outliers will mess the model
+* http://digitalfirst.bfwpub.com/stats_applet/asset/applet_index.html
