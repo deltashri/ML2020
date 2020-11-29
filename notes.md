@@ -44,3 +44,10 @@
 
 ## check this out... you can see how outliers will mess the model
 * http://digitalfirst.bfwpub.com/stats_applet/asset/applet_index.html
+
+
+## For linear regression... check this to make sure, you are not going beyond the boundaries... in wich case, your model will get garbage-in and spit garbage-out
+https://www.statisticssolutions.com/assumptions-of-linear-regression/
+
+
+
