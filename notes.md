@@ -51,3 +51,8 @@ https://www.statisticssolutions.com/assumptions-of-linear-regression/
 
 
 
+## Evaluation of the Linear Regression model is done using the following 3 methods:
+1. residual value analysis - plot scatter graph with test data in one color and training data in another color... shows how close the pattern in the test scatter plot is to the pattern in the training data scatter plot
+1. Compare the mean of the square of the error (MSE) of the model obtained by training data vs the model obtained by the test data
+1. co-effecient of determination R^2 - did not understand this much
+
